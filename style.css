@@ -12,7 +12,29 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.tic-toc-toe-box {
+    background-color: black;
+    width: 60%;
+    height: 80%;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    gap: 5px;
+}
 
+.container .tic-toc-toe-box>div {
+    background-color: #0984e3;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
 }
