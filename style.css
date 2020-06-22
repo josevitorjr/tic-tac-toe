@@ -5,23 +5,29 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.game-container {
     background-color: black;
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 10vh 5vh 5vh 5vh 65vh 5vh;
     justify-self: center;
     align-self: center;
-
 }
 
-.tic-toc-toe-box {
+h1,
+h3 {
+    text-align: center;
+}
+
+.game-grid {
     background-color: black;
-    width: 60%;
+    width: 55%;
     height: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,10 +37,28 @@ body {
     gap: 5px;
 }
 
-.container .tic-toc-toe-box>div {
-    background-color: #0984e3;
+.game-container .game-grid>div {
+    background-color: #14BDAC;
     width: 100%;
     height: 100%;
     justify-self: center;
     align-self: center;
+}
+
+.game-grid .cell {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x {
+    color: #545454;
+}
+
+.o {
+    color: #F2EBD3;
 }
