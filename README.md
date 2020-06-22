@@ -20,7 +20,7 @@ Tic Tac Toe (Jogo da Velha)
   <a href="#licença">Licença</a> 
 </h3>
 
-<img src="" width="1200">
+<img src="tic-tac-toe.png" width="1200">
 
 ## :information_source: Sobre
 
@@ -37,6 +37,17 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Grid CSS
 - HTML
 - JavaScript
+
+## :bookmark_tabs: TODO List
+
+- :ballot_box_with_check: Criar Estrutura
+- :ballot_box_with_check: Criar Estilo
+- :ballot_box_with_check: Criar Script com as regras
+- Inserir Pontuação
+- Melhorar Layout
+- Inserir Single Player
+- Inserir Nivel no Single Player
+
 
 ## :link: Como contribuir
 
