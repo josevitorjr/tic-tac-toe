@@ -20,7 +20,7 @@ Tic Tac Toe (Jogo da Velha)
   <a href="#licença">Licença</a> 
 </h3>
 
-<img src="tic-tac-toe.png" width="1200">
+<img src="tic-tac-toe2.png" width="1200">
 
 ## :information_source: Sobre
 
